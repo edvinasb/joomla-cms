@@ -33,9 +33,9 @@ class JConfig
 	/* Database Settings */
 	public $dbtype = 'mysqli';               // Normally mysqli
 	public $host = 'localhost';              // This is normally set to localhost
-	public $user = '';                       // DB username
-	public $password = '';                   // DB password
-	public $db = '';                         // DB database name
+	public $user = 'username';                       // DB username
+	public $password = 'password';                   // DB password
+	public $db = 'useddatabase';                         // DB database name
 	public $dbprefix = 'jos_';               // Do not change unless you need to!
 
 	/* Server Settings */
